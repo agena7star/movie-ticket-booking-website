@@ -1,0 +1,104 @@
+.confirmation-page {
+  padding: 50px 0;
+  min-height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+}
+
+.confirmation-card {
+  max-width: 500px;
+  margin: 0 auto;
+  background: #1a1a1a;
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.success-icon {
+  width: 80px;
+  height: 80px;
+  background: #22c55e;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  margin: 0 auto 20px;
+}
+
+.confirmation-card h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.booking-id {
+  color: #888;
+  margin-bottom: 30px;
+}
+
+.ticket {
+  background: #0f0f0f;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.ticket-header {
+  background: #e50914;
+  padding: 15px;
+}
+
+.ticket-header h2 {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.ticket-body {
+  padding: 20px;
+}
+
+.ticket-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  color: #888;
+}
+
+.ticket-row strong {
+  color: #fff;
+}
+
+.ticket-row.total {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px dashed #333;
+  font-size: 1.1rem;
+}
+
+.ticket-row.total strong {
+  color: #22c55e;
+}
+
+.confirmation-actions {
+  display: flex;
+  gap: 15px;
+}
+
+.confirmation-actions a {
+  flex: 1;
+  padding: 12px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.btn-back {
+  background: #333;
+  color: #fff;
+}
+
+.btn-profile {
+  background: #e50914;
+  color: #fff;
+}

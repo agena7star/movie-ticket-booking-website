@@ -1,0 +1,38 @@
+.movies-page {
+  padding: 40px 0;
+}
+
+.movies-page h1 {
+  font-size: 2rem;
+}
+
+.filter-tabs {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 15px;
+}
+
+.filter-tabs button {
+  background: transparent;
+  border: 1px solid #333;
+  color: #888;
+  padding: 8px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.filter-tabs button.active,
+.filter-tabs button:hover {
+  background: #e50914;
+  border-color: #e50914;
+  color: white;
+}
+
+.no-results {
+  text-align: center;
+  padding: 50px;
+  color: #666;
+}

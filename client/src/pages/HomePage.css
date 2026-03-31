@@ -1,0 +1,57 @@
+.home-page {
+  padding-bottom: 50px;
+}
+
+.hero {
+  background: linear-gradient(to bottom, rgba(0,0,0,0.7), #0a0a0a),
+    url('https://image.tmdb.org/t/p/original/9fVGtdKzJJKGflb5Rq1JpH3VIG.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  color: #aaa;
+  margin-bottom: 25px;
+}
+
+.btn-hero {
+  background: #e50914;
+  color: white;
+  padding: 14px 40px;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.btn-hero:hover {
+  background: #f40612;
+}
+
+.now-showing, .coming-soon {
+  padding: 40px 0;
+}
+
+.now-showing h2, .coming-soon h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.coming-soon {
+  background: #0f0f0f;
+  padding: 40px 0;
+  margin-top: 20px;
+  border-radius: 8px;
+}

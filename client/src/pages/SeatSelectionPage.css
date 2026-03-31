@@ -1,0 +1,174 @@
+.seat-selection-page {
+  padding: 30px 0;
+}
+
+.showtime-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.showtime-header h2 {
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+}
+
+.showtime-header p {
+  color: #888;
+}
+
+.screen {
+  background: linear-gradient(to bottom, #e50914, #8a0a14);
+  text-align: center;
+  padding: 10px;
+  margin: 20px auto 40px;
+  border-radius: 0 0 10px 10px;
+  width: 80%;
+  max-width: 600px;
+  font-weight: 600;
+  letter-spacing: 5px;
+}
+
+.seat-map {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 30px;
+}
+
+.seat-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.row-label {
+  width: 25px;
+  text-align: center;
+  font-weight: 600;
+  color: #888;
+}
+
+.seat {
+  width: 32px;
+  height: 32px;
+  border: 2px solid #333;
+  background: #1a1a1a;
+  border-radius: 4px 4px 0 0;
+  cursor: pointer;
+  font-size: 0.7rem;
+  color: #666;
+  transition: all 0.2s;
+}
+
+.seat:not(.booked):not(.selected):hover {
+  border-color: #e50914;
+  background: #2a1a1a;
+}
+
+.seat.selected {
+  background: #e50914;
+  border-color: #e50914;
+  color: white;
+}
+
+.seat.booked {
+  background: #333;
+  border-color: #444;
+  cursor: not-allowed;
+  color: #555;
+}
+
+.seat.locked {
+  background: #f59e0b;
+  border-color: #f59e0b;
+  cursor: not-allowed;
+  color: #000;
+}
+
+.lock-timer {
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+
+.lock-timer strong {
+  color: #f59e0b;
+}
+
+.lock-warning {
+  color: #f59e0b;
+  margin-bottom: 15px;
+  font-size: 0.9rem;
+}
+
+.error-message {
+  background: rgba(239, 68, 68, 0.1);
+  border: 1px solid #ef4444;
+  color: #ef4444;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  text-align: center;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.seat-legend {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #888;
+}
+
+.legend-item .seat {
+  width: 24px;
+  height: 24px;
+  cursor: default;
+}
+
+.booking-summary {
+  background: #1a1a1a;
+  padding: 25px;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.selected-seats {
+  margin-bottom: 15px;
+  color: #ccc;
+}
+
+.total-price {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.total-price strong {
+  color: #e50914;
+}
+
+.btn-continue {
+  background: #e50914;
+  color: white;
+  border: none;
+  padding: 14px 40px;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-continue:hover {
+  background: #f40612;
+}
